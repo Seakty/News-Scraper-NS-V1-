@@ -52,7 +52,12 @@ Built with modern Python stack featuring FastAPI backend and Streamlit frontend 
 
 3. **Set up environment variables**
    
-   Create a `.env` file in the root directory:
+   Create a `.env` file in the root directory by copying `.env.example`:
+   ```bash
+   cp .env.example .env
+   ```
+   
+   Then edit `.env` and add your OpenAI API key:
    ```env
    OPENAI_API_KEY=your_openai_api_key_here
    ```
